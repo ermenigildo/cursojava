@@ -27,6 +27,11 @@ public class DatosPorTeclado {
         
         System.out.print("Ingres la tercera nota :");
         double nota3 = scanner.nextDouble();
+        if(nota3>=1 && nota3<=20){
+            System.out.println("genial ingresaste la tercera nota");
+        }else{
+            System.out.println("ingrese un numero de 1 al 20");
+        }
         
         System.out.print("Ingres la cuarta nota :");
         double nota4 = scanner.nextDouble();
