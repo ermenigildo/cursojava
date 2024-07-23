@@ -49,7 +49,7 @@ public class Main {
         }else{
             System.out.println("usted es menor de edad");
         }
-        //hola
+        // mundo
         //cuerta condicion de edad
         if (edad>=18 && entrada==true){
             System.out.println("cumple con los requsitos de edad y tiene entrada");
